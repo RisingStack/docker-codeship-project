@@ -4,7 +4,8 @@
   "description": "Example app to show deployment with Codeship and Docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RisingStack/docker-codeship-example/issues"
   },
-  "homepage": "https://github.com/RisingStack/docker-codeship-example"
+  "homepage": "https://github.com/RisingStack/docker-codeship-example",
+  "dependencies": {
+    "hapi": "^8.0.0"
+  }
 }
