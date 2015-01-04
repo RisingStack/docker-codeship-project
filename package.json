@@ -1,0 +1,19 @@
+{
+  "name": "docker-codeship-example",
+  "version": "1.0.0",
+  "description": "Example app to show deployment with Codeship and Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RisingStack/docker-codeship-example.git"
+  },
+  "author": "Gergely Nemeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RisingStack/docker-codeship-example/issues"
+  },
+  "homepage": "https://github.com/RisingStack/docker-codeship-example"
+}
