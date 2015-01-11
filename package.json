@@ -19,5 +19,8 @@
   "homepage": "https://github.com/RisingStack/docker-codeship-example",
   "dependencies": {
     "hapi": "^8.0.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
   }
 }
