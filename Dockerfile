@@ -18,3 +18,10 @@ RUN npm install -g node-gyp \
  && npm cache clear
 
 RUN node-gyp configure || echo ""
+
+COPY . /src
+RUN cd /src; npm install
+
+EXPOSE  3000
+
+CMD ["node", "/src/index.js"]
